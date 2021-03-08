@@ -47,6 +47,7 @@ slides:
 Inline code: `variable`
 
 Code block:
+
 ```python
 porridge = "blueberry"
 if porridge == "blueberry":
@@ -62,7 +63,7 @@ In-line math: $x + y = z$
 Block math:
 
 $$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+<!-- f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}} -->
 $$
 
 ---
@@ -98,17 +99,19 @@ Add speaker notes to your presentation
 
 ```markdown
 {{%/* speaker_note */%}}
+
 - Only the speaker can read these notes
 - Press `S` key to view
-{{%/* /speaker_note */%}}
+  {{%/* /speaker_note */%}}
 ```
 
 Press the `S` key to view the speaker notes!
 
 {{< speaker_note >}}
+
 - Only the speaker can read these notes
 - Press `S` key to view
-{{< /speaker_note >}}
+  {{< /speaker_note >}}
 
 ---
 
